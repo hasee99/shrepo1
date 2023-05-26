@@ -17,7 +17,4 @@ node{
   stage('step2'){
  sshCommand remote: remote, command: "pwd"
  }
-  stage('step3'){
- sshRemove remote: remote, path: "/home/opc/hasee99.sh"
- }
 }
